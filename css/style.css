@@ -1,0 +1,27 @@
+#ribbon
+{ background-color:#353535;
+  overflow:hidden;
+  position:fixed;
+  right:-3em;
+  top:2.5em;
+  -moz-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+  z-index:900; }
+
+#ribbon a
+{ color:#fff;
+  display:block;
+  font-size: 14px;
+  margin:.05em 0 .075em 0;
+  padding:.5em 3.5em;
+  text-align:center;
+  text-decoration:none;
+}
+
+/* Don't print link hrefs */
+@media print {
+  a[href]:after {
+    content: none
+  }
+  .page-break{ display: block; page-break-before: always; }
+}
