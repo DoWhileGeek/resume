@@ -1,2 +1,2 @@
 # resume
-My Resume
+Check out my resume at [resume.dowhilegeek.com](http://resume.dowhilegeek.com)
