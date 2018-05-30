@@ -1,0 +1,11 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:DoWhileGeek/resume.git",
+  "author": "Joeseph Rodrigues <dowhilegeek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
