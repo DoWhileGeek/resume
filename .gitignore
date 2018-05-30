@@ -1,5 +1,9 @@
 # Created by https://www.gitignore.io/api/node
 
+### Parcel ###
+.cache
+dist
+
 ### Node ###
 # Logs
 logs

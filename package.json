@@ -6,6 +6,8 @@
   "author": "Joeseph Rodrigues <dowhilegeek@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "parcel-bundler": "^1.8.1"
+    "parcel-bundler": "^1.8.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
   }
 }
