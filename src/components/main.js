@@ -5,7 +5,7 @@ import Experience from './experience'
 
 export default () => {
   return(
-    <div>
+    <div className='container'>
       <Section title='Work Experience'>
         <Experience
           company='Omadi'
