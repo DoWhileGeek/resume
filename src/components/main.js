@@ -2,6 +2,7 @@ import React from 'react'
 
 import Section from './section'
 import Experience from './experience'
+import '../styles.scss';
 
 export default () => {
   return(
