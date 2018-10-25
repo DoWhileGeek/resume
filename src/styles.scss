@@ -8,3 +8,19 @@ body {
   width: 70%;
   margin: auto;
 }
+
+.experience-container {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.experience-container {
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
