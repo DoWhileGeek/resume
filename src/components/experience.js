@@ -2,7 +2,7 @@ import React from 'react'
 
 export default ({ company, title, dateRange, children }) => {
   return(
-    <div>
+    <div className='experience-container'>
       <div className='experience-header'>
         <span><b>{title}</b> at {company}</span>
         {dateRange}
