@@ -24,3 +24,17 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.skills-container {
+  tr {
+    margin-bottom: 20px;
+  }
+
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: center;
+  }
+}
