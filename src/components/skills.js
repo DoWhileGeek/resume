@@ -6,11 +6,10 @@ export default React.memo(({ skills }) => {
   )
 
   const buildRow = (category, values) => {
-    const paddedValues = [0,1,2,3,4].map(index => values[index] || '')
     return(
       <tr key={category}>
         {[category].map(item => buildColumn(item, true))}
-        {paddedValues.map(item => buildColumn(item, false))}
+        {values.map(item => buildColumn(item, false))}
       </tr>
     )
   }
@@ -19,7 +18,9 @@ export default React.memo(({ skills }) => {
 
   return(
     <table className='skills-container'>
-      {rows}
+      <tbody>
+        {rows}
+      </tbody>
     </table>
   )
 })
