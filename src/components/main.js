@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Title from './title'
 import Section from './section'
 import Skills from './skills'
 import Experience from './experience'
@@ -8,6 +9,7 @@ import '../styles.scss';
 export default () => {
   return(
     <div className='container'>
+      <Title title='Joeseph Rodrigues' subtitle='Seeking a Senior Engineer position.' />
       <Section title='Skills'>
         <Skills skills={skills} />
       </Section>
