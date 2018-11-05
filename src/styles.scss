@@ -34,10 +34,8 @@ body {
 }
 
 .skills-container {
-  tr {
-    margin-bottom: 20px;
-  }
-
+  border-spacing: 20px;
+  width: 100%;
   th {
     text-align: left;
   }
