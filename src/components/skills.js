@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default React.memo(({ skills }) => {
+export default ({ skills }) => {
   const buildColumn = (value, isHeader = false) => (
     isHeader ? (<th key={value}>{value}</th>) : (<td key={value}>{value}</td>)
   )
@@ -23,4 +23,4 @@ export default React.memo(({ skills }) => {
       </tbody>
     </table>
   )
-})
+}

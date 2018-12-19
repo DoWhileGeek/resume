@@ -11,14 +11,14 @@ import data from '../../data.json'
 const buildExperiences = () => {
   return (
     data.experiences.map(experience => (
-    <Experience
-      key={experience.dateRange}
-      company={experience.company}
-      title={experience.title}
-      dateRange={experience.dateRange}
-    >
-      {experience.accomplishments.map((accomplishment, index) => <li key={index}>{accomplishment}</li>)}
-    </Experience>
+      <Experience
+        key={experience.dateRange}
+        company={experience.company}
+        title={experience.title}
+        dateRange={experience.dateRange}
+      >
+        {experience.accomplishments.map((accomplishment, index) => <li key={index}>{accomplishment}</li>)}
+      </Experience>
     ))
   )
 }

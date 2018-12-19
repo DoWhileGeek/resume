@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 
 import '../../styles/components/contact.scss'
 
-export default React.memo(({ skills }) => {
+export default ({ skills }) => {
   return(
     <div className='contact-container'>
       <div className='row'>
@@ -36,4 +36,4 @@ export default React.memo(({ skills }) => {
       </div>
     </div>
   )
-})
+}
