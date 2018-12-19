@@ -4,13 +4,19 @@
   justify-content: space-around;
 }
 
-.col {
+.contact-col {
+  display: flex;
   flex-direction: column;
 }
 
-.cell {
+.contact-cell {
+  margin-bottom: 30px;
   a {
     text-decoration: none;
     color: #337ab7;
+  }
+
+  &:last-child{
+    margin-bottom: 0px;
   }
 }
