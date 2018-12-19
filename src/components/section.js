@@ -3,7 +3,7 @@ import React from 'react'
 export default ({ title, children }) => {
   return(
     <div>
-      <h2>{title}</h2>
+      <h3>{title}</h3>
       <div className='section-container'>
         {children}
       </div>

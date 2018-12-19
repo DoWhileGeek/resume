@@ -17,7 +17,7 @@ const buildExperiences = () => {
       title={experience.title}
       dateRange={experience.dateRange}
     >
-      {experience.accomplishments.map(accomplishment => <li key={accomplishment}>{accomplishment}</li>)}
+      {experience.accomplishments.map((accomplishment, index) => <li key={index}>{accomplishment}</li>)}
     </Experience>
     ))
   )

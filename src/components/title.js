@@ -3,7 +3,7 @@ import React from 'react'
 export default React.memo(({title, subtitle}) => {
   return(
     <div className='title'>
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <span>{subtitle}</span>
     </div>
   )
