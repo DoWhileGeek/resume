@@ -10,7 +10,7 @@ import '../../styles/components/contact.scss'
 export default ({ skills }) => {
   return(
     <div className='contact-container'>
-      <div className='row'>
+      <div className='col'>
         <div className='cell'>
           <a href='https://linkedin.com/in/joesephrodrigues' target='_blank'>
             <span><FontAwesomeIcon icon={faLinkedin} size='lg' color='#0077b5' /> /in/joesephrodrigues</span>
@@ -22,7 +22,7 @@ export default ({ skills }) => {
           </a>
         </div>
       </div>
-      <div className='row'>
+      <div className='col'>
         <div className='cell'>
           <a href='https://github.com/dowhilegeek' target='_blank'>
             <span><FontAwesomeIcon icon={faGithub} size='lg' color='#333' /> /dowhilegeek</span>
