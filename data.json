@@ -1,8 +1,8 @@
 {
   "skills": {
-  "Languages": ["Python", "Nodejs", "HTML/CSS/JS", "Rust", "C/C++"],
-  "Frameworks": ["React", "React Native", "Flask", "GraphQL"],
-  "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB"],
+  "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
+  "Frameworks": ["React", "React Native", "GraphQL", "Flask", "Django"],
+  "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
   "Tools": ["Vim", "Git", "iTerm2", "Tmux"],
   "Infrastructure": ["AWS", "Docker", "Serverless"]
   },
@@ -12,7 +12,7 @@
       "company": "Omadi",
       "dateRange": "August 2017 - Present",
       "accomplishments": [
-        "Lead the charge on building a React Native app and mentored jr engineers along the way.",
+        "Built a React Native app from conception to delivery to the user, and mentored jr engineers along the way.",
         "Major contributor in building a React web app that worked in tandem with the React Native app.",
         "Spearheaded the company transition to GraphQL running on Serverless in multiple company verticals, teaching new teams as they were brought online."
       ]
@@ -24,7 +24,8 @@
         "Pitched to management, built, and maintained an end-user accessable \"3d Model Warehouse\" api that: stored, raytrace rendered, transformed, ran a suite of printability checks, and repaired the model on demand.",
         "Pitched to management, built, and maintained an end-user accessable \"Slicing Service\" api that would take model resources from the model warehouse, and \"sliced\" (generated a toolpath) that could be 3d printed.",
         "Worked with a team to build an OpenCV api that would take pictures of a 3d print in-situ and compare it against an ideal rendering of the toolpath, and emailed the user if their print began to fail.",
-        "Contributed Full Stack in building a Enterprise Resource Planning system for the 3d printing industry."
+        "Contributed Full Stack in building a Enterprise Resource Planning system for the 3d printing industry.",
+        "Worked with a team to build a robust, bi-directional 3rd party integration service for all above listed services."
       ]
     }, {
       "title": "Backend/Firmware Engineer",
