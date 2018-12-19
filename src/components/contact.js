@@ -1,9 +1,9 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 
 import '../../styles/components/contact.scss'
 
