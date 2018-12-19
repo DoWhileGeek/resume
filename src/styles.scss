@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container {
+  width: 8.5in;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.section-container {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.experience-container {
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills-container {
+  border-spacing: 20px;
+  width: 100%;
+  th {
+    text-align: left;
+  }
+
+  td {
+    text-align: center;
+  }
+}
