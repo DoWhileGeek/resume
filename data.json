@@ -1,22 +1,24 @@
 {
   "skills": {
-  "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
-  "Frameworks": ["React", "React Native", "GraphQL", "Flask", "Django"],
-  "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
-  "Tools": ["Vim", "Git", "iTerm2", "Tmux"],
-  "Infrastructure": ["AWS", "Docker", "Serverless"]
+    "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
+    "Frameworks": ["React", "React Native", "GraphQL", "Flask", "Django"],
+    "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
+    "Tools": ["Vim", "Git", "iTerm2", "Tmux"],
+    "Infrastructure": ["AWS", "Docker", "Serverless"]
   },
   "experiences": [
     {
       "title": "Sr Full-Stack Engineer",
+      "pageBreak": true,
       "company": "Omadi",
-      "dateRange": "August 2017 - Present",
+      "dateRange": "August 2017 - May 2019",
       "accomplishments": [
         "Built a React Native app from conception to delivery to the user, and mentored jr engineers along the way.",
         "Major contributor in building a React web app that worked in tandem with the React Native app.",
         "Spearheaded the company transition to GraphQL running on Serverless in multiple company verticals, teaching new teams as they were brought online."
       ]
-    }, {
+    },
+    {
       "title": "Full-Stack Engineer",
       "company": "Authentise",
       "dateRange": "April 2014 - August 2017",
@@ -27,24 +29,26 @@
         "Contributed Full Stack in building a Enterprise Resource Planning system for the 3d printing industry.",
         "Worked with a team to build a robust, bi-directional 3rd party integration service for all above listed services."
       ]
-    }, {
+    },
+    {
       "title": "Backend/Firmware Engineer",
       "company": "Ansync",
       "dateRange": "July 2013 - November 2013",
       "accomplishments": [
-		"Wrote device firmware in C to talk to companion NodeJS apps.",
-		"Contributed to various software/mechanical engineering projects.",
-		"Worked SMT line at every stage from bare PCB's to final QA.",
-		"Operated and maintained 3 & 5 axis cnc end mills, laser-cutter, and various shop tools."
+        "Wrote device firmware in C to talk to companion NodeJS apps.",
+        "Contributed to various software/mechanical engineering projects.",
+        "Worked SMT line at every stage from bare PCB's to final QA.",
+        "Operated and maintained 3 & 5 axis cnc end mills, laser-cutter, and various shop tools."
       ]
-    }, {
+    },
+    {
       "title": "Android Engineer",
       "company": "Ask Ziggy",
       "dateRange": "July 2012 - May 2013",
       "accomplishments": [
-		"Developed and designed Android prototypes in rapid sprint cycles for prospective businesses and investors. Most taking advantage of natural language understanding (siri- like ai).",
-		"Wrote server & automation scripts in python to interact with Android applications.",
-		"Designed custom circuits for proof of concept of products, as well as 3d model objects and print them out for rapid prototyping of mechanical concepts."
+        "Developed and designed Android prototypes in rapid sprint cycles for prospective businesses and investors. Most taking advantage of natural language understanding (siri- like ai).",
+        "Wrote server & automation scripts in python to interact with Android applications.",
+        "Designed custom circuits for proof of concept of products, as well as 3d model objects and print them out for rapid prototyping of mechanical concepts."
       ]
     }
   ]

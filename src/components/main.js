@@ -1,20 +1,21 @@
-import React from "react";
+import React from 'react';
 
-import Title from "./title";
-import Section from "./section";
-import Contact from "./contact";
-import Skills from "./skills";
-import Experience from "./experience";
-import "../styles.scss";
-import data from "../../data.json";
+import Title from './title';
+import Section from './section';
+import Contact from './contact';
+import Skills from './skills';
+import Experience from './experience';
+import '../styles.scss';
+import data from '../../data.json';
 
 const buildExperiences = () => {
-  return data.experiences.map((experience) => (
+  return data.experiences.map(experience => (
     <Experience
       key={experience.dateRange}
       company={experience.company}
       title={experience.title}
       dateRange={experience.dateRange}
+      pageBreak={experience.pageBreak}
     >
       {experience.accomplishments.map((accomplishment, index) => (
         <li key={index}>{accomplishment}</li>
