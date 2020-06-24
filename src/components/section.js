@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default ({ title, children }) => {
-  return(
+  return (
     <div>
       <h3>{title}</h3>
-      <div className='section-container'>
-        {children}
-      </div>
+      <div className="section-container">{children}</div>
     </div>
-  )
-}
+  );
+};
