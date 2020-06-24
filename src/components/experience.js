@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-const PageBreak = () => <div className="page-break" />;
+const PageBreak = () => <div className="page-break" />
 
 export default ({ company, title, dateRange, children, pageBreak = false }) => {
   return (
@@ -16,5 +16,5 @@ export default ({ company, title, dateRange, children, pageBreak = false }) => {
       </div>
       {pageBreak && <PageBreak />}
     </>
-  );
-};
+  )
+}

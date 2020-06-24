@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export default ({ title, subtitle }) => {
   return (
@@ -6,5 +6,5 @@ export default ({ title, subtitle }) => {
       <h2>{title}</h2>
       <span>{subtitle}</span>
     </div>
-  );
-};
+  )
+}
