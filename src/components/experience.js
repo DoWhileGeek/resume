@@ -12,7 +12,7 @@ export default ({ company, title, dateRange, children, pageBreak = false }) => {
           </span>
           {dateRange}
         </div>
-        <ul>{children}</ul>
+        <ul className="duties-list">{children}</ul>
       </div>
       {pageBreak && <PageBreak />}
     </>

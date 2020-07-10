@@ -23,14 +23,22 @@ body {
 }
 
 .experience-container {
-  li:not(:last-child) {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 40px;
+  page-break-inside: avoid;
 }
 
 .experience-header {
   display: flex;
   justify-content: space-between;
+}
+
+.duties-list {
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  li:not(:last-child) {
+    margin-bottom: 20px;
+  }
 }
 
 .skills-container {

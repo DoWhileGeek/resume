@@ -1,15 +1,25 @@
 {
   "skills": {
     "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
-    "Frameworks": ["React", "React Native", "GraphQL", "Flask", "Django"],
+    "Frameworks": ["React", "React Native", "GraphQL", "Express", "Flask"],
     "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
     "Tools": ["Vim", "Git", "iTerm2", "Tmux"],
-    "Infrastructure": ["AWS", "Docker", "Serverless"]
+    "Infrastructure": ["AWS", "Docker", "Serverless", "Kubernetes"]
   },
   "experiences": [
     {
       "title": "Sr Full-Stack Engineer",
-      "pageBreak": true,
+      "company": "Full Stack Labs",
+      "dateRange": "May 2019 - Current",
+      "accomplishments": [
+        "Led development on, and managed four teams in building seven backend microservices for the modernization efforts to the California Department Of Healthcare Services. This was a first of its kind project in state projects using Nodejs, koa, and es6, all secured with JWT.",
+        "Mentored 20+ Java and .NET developers on modern, fullstack javascript, as well as the concept of database migrations. I was a required approval on most backend pull requests, especially when a database migration was involved, on account of the amount of steering required.",
+        "Before being put in charge of the microservices, I was a major contributor to the React frontend that consumed the microservices, and paired with team members often to show them best practices on a modern javascript frontend."
+      ],
+      "unusedBulletPoint": "Was the sole dev-ops asset until the dev-ops team was staffed. This included configuring the ci pipeline for all repositories, publishing shared internal packages to private npm registry, and maintaining a docker-compose config to stand up all services, ui, and their respective databases for ease of local development."
+    },
+    {
+      "title": "Sr Full-Stack Engineer",
       "company": "Omadi",
       "dateRange": "August 2017 - May 2019",
       "accomplishments": [
