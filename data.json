@@ -2,9 +2,43 @@
   "name": "Joeseph Rodrigues",
   "phoneNumber": "415-354-8766",
   "subtitle": "Seeking a Senior Engineer position.",
-  "contactMethods": {
-    "phoneNumber": "1-415-354-8766"
-  },
+  "contactMethods": [
+    {
+      "method": "phone",
+      "color":"#333",
+      "text": "1-415-354-8766",
+      "url": "tel:1-415-364-8766",
+      "prefix": "fas"
+    },
+    {
+      "method": "envelope",
+      "color": "#dd4b39",
+      "text": "dowhilegeek@gmail.com",
+      "url": "mailto:dowhilegeek@gmail.com",
+      "prefix": "fas"
+    },
+    {
+      "method": "github",
+  "color":"#333",
+      "text": "/dowhilegeek",
+      "url": "github.com/dowhilegeek",
+      "prefix": "fab"
+    },
+    {
+      "method": "linkedin",
+      "color": "#0077b5",
+      "text": "/in/joesephrodrigues",
+      "url": "linkedin.com/in/joesephrodrigues",
+      "prefix": "fab"
+    },
+    {
+      "method": "twitter",
+      "color": "#1da1f2",
+      "text": "/dowhilegeek",
+      "url": "twitter.com/dowhilegeek",
+      "prefix": "fab"
+    }
+  ],
   "skills": {
     "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
     "Frameworks": ["React", "React Native", "GraphQL", "Express", "Flask"],
