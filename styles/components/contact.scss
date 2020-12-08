@@ -1,22 +1,14 @@
 .contact-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.contact-col {
-  display: flex;
-  flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 75%;
+    margin: auto;
 }
 
 .contact-cell {
-  margin-bottom: 30px;
+  margin: 0 auto 15px;
   a {
     text-decoration: none;
     color: #337ab7;
-  }
-
-  &:last-child{
-    margin-bottom: 0px;
   }
 }

@@ -1,11 +1,10 @@
 {
   "name": "Joeseph Rodrigues",
-  "phoneNumber": "415-354-8766",
   "subtitle": "Seeking a Senior Engineer position.",
   "contactMethods": [
     {
       "method": "phone",
-      "color":"#333",
+      "color":"#1DB954",
       "text": "1-415-354-8766",
       "url": "tel:1-415-364-8766",
       "prefix": "fas"
@@ -22,28 +21,22 @@
   "color":"#333",
       "text": "/dowhilegeek",
       "url": "github.com/dowhilegeek",
-      "prefix": "fab"
+      "prefix": "fab",
+      "newTab": "true"
     },
     {
       "method": "linkedin",
       "color": "#0077b5",
       "text": "/in/joesephrodrigues",
       "url": "linkedin.com/in/joesephrodrigues",
-      "prefix": "fab"
-    },
-    {
-      "method": "twitter",
-      "color": "#1da1f2",
-      "text": "/dowhilegeek",
-      "url": "twitter.com/dowhilegeek",
-      "prefix": "fab"
+      "prefix": "fab",
+      "newTab": "true"
     }
   ],
   "skills": {
     "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
     "Frameworks": ["React", "React Native", "GraphQL", "Express", "Flask"],
     "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
-    "Tools": ["Vim", "Git", "iTerm2", "Tmux"],
     "Infrastructure": ["AWS", "Docker", "Serverless", "Kubernetes"]
   },
   "experiences": [

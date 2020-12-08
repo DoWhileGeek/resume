@@ -1,6 +1,7 @@
 import React from 'react'
 
 export default ({ skills }) => {
+  console.log(skills)
   const buildColumn = (value, isHeader = false) =>
     isHeader ? <th key={value}>{value}</th> : <td key={value}>{value}</td>
 
