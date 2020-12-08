@@ -20,7 +20,7 @@
       "method": "github",
   "color":"#333",
       "text": "/dowhilegeek",
-      "url": "github.com/dowhilegeek",
+      "url": "https://github.com/dowhilegeek",
       "prefix": "fab",
       "newTab": "true"
     },
@@ -28,7 +28,7 @@
       "method": "linkedin",
       "color": "#0077b5",
       "text": "/in/joesephrodrigues",
-      "url": "linkedin.com/in/joesephrodrigues",
+      "url": "https://linkedin.com/in/joesephrodrigues",
       "prefix": "fab",
       "newTab": "true"
     }
