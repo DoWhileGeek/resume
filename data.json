@@ -1,4 +1,10 @@
 {
+  "name": "Joeseph Rodrigues",
+  "phoneNumber": "415-354-8766",
+  "subtitle": "Seeking a Senior Engineer position.",
+  "contactMethods": {
+    "phoneNumber": "1-415-354-8766"
+  },
   "skills": {
     "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
     "Frameworks": ["React", "React Native", "GraphQL", "Express", "Flask"],

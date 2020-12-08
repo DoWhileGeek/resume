@@ -27,13 +27,10 @@ const buildExperiences = () => {
 export default () => {
   return (
     <div className="container">
-      <Title
-        title="Joeseph Rodrigues"
-        subtitle="Seeking a Senior Engineer position."
-      />
+      <Title title={data.name} subtitle={data.subtitle} />
 
       <Section title="Contact">
-        <Contact />
+        <Contact contactMethods={data.contactMethods} />
       </Section>
 
       <Section title="Skills">

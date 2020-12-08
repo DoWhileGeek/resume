@@ -1,13 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons/faEnvelope'
+import { faPhone } from '@fortawesome/free-solid-svg-icons/faPhone'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons/faTwitter'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin'
 import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 
 import '../../styles/components/contact.scss'
 
-export default ({ skills }) => {
+export default ({ contactMethods }) => {
   return (
     <div className="contact-container">
       <div className="contact-col">
@@ -16,6 +17,14 @@ export default ({ skills }) => {
             <span>
               <FontAwesomeIcon icon={faGithub} size="lg" color="#333" />{' '}
               /dowhilegeek
+            </span>
+          </a>
+        </div>
+        <div className="contact-cell">
+          <a href={`tel:${contactMethods.phoneNumber}`}>
+            <span>
+              <FontAwesomeIcon icon={faPhone} size="lg" color="#333" />{' '}
+              {contactMethods.phoneNumber}
             </span>
           </a>
         </div>
