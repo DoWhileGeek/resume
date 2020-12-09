@@ -1,6 +1,5 @@
 {
   "name": "Joeseph Rodrigues",
-  "subtitle": "Seeking a Senior Engineer position.",
   "contactMethods": [
     {
       "method": "phone",
@@ -43,7 +42,7 @@
     {
       "title": "Sr Full-Stack Engineer",
       "company": "Full Stack Labs",
-      "dateRange": "May 2019 - Current",
+      "dateRange": "May 2019 - Present",
       "accomplishments": [
         "Led development on, and managed four teams in building seven backend microservices for the modernization efforts to the California Department Of Healthcare Services. This was a first of its kind project in state projects using Nodejs, koa, and es6, all secured with JWT.",
         "Mentored 20+ Java and .NET developers on modern, fullstack javascript, as well as the concept of database migrations. I was a required approval on most backend pull requests, especially when a database migration was involved, on account of the amount of steering required.",

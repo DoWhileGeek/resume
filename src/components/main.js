@@ -27,7 +27,7 @@ const buildExperiences = () => {
 export default () => {
   return (
     <div className="container">
-      <Title title={data.name} subtitle={data.subtitle} />
+      <Title title={data.name} />
 
       <Section title="Contact">
         <Contact contactMethods={data.contactMethods} />
