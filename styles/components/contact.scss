@@ -11,4 +11,8 @@
     text-decoration: none;
     color: #337ab7;
   }
+
+  &:nth-last-child(-n+2) {
+    margin-bottom: 0;
+  }
 }
