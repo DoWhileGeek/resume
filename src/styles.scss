@@ -49,3 +49,8 @@ h3 {
 .page-break {
   page-break-after: always;
 }
+
+@page{
+  size: letter;
+  margin: 2cm;
+}
