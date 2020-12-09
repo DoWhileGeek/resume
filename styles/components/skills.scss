@@ -1,0 +1,15 @@
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 10px;
+
+  .heading {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .cell {
+    text-align: center;
+  }
+}

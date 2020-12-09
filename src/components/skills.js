@@ -1,26 +1,25 @@
 import React from 'react'
 
+import '../../styles/components/skills.scss'
+
+const buildCell = (skill) => (
+  <span key={skill} className="cell">
+    {skill}
+  </span>
+)
+
+const buildRow = ([category, skills]) => {
+  const heading = (
+    <span key={category} className="heading">
+      {category}
+    </span>
+  )
+
+  return [heading, ...skills.map(buildCell)]
+}
+
 export default ({ skills }) => {
-  console.log(skills)
-  const buildColumn = (value, isHeader = false) =>
-    isHeader ? <th key={value}>{value}</th> : <td key={value}>{value}</td>
+  const cells = Object.entries(skills).map(buildRow)
 
-  const buildRow = (category, values) => {
-    return (
-      <tr key={category}>
-        {[category].map((item) => buildColumn(item, true))}
-        {values.map((item) => buildColumn(item, false))}
-      </tr>
-    )
-  }
-
-  const rows = Object.keys(skills).map((category) =>
-    buildRow(category, skills[category])
-  )
-
-  return (
-    <table className="skills-container">
-      <tbody>{rows}</tbody>
-    </table>
-  )
+  return <div className="skills-container">{cells}</div>
 }
