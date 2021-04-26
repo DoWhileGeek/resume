@@ -32,12 +32,93 @@
       "newTab": "true"
     }
   ],
-  "skills": {
-    "Languages": ["Nodejs", "Python", "HTML/CSS/JS", "Rust", "C/C++"],
-    "Frameworks": ["React", "React Native", "GraphQL", "Express", "Flask"],
-    "Databases": ["PostgreSQL", "MongoDB", "Couchbase", "DynamoDB", "MySQL"],
-    "Infrastructure": ["AWS", "Docker", "Serverless", "Kubernetes"]
-  },
+
+skills: {
+  "Languages": [
+    {
+      "skill": "Nodejs",
+      "level": 3
+    },
+    {
+      "skill": "Python",
+      "level": 3
+    },
+    {
+      "skill": "HTML/CSS/JS",
+      "level": 3
+    },
+    {
+      "skill": "Rust",
+      "level": 2
+    },
+    {
+      "skill": "C/C++",
+      "level": 1
+    }
+  ],
+  "Frameworks": [
+    {
+      "skill": "React",
+      "level": 3
+    },
+    {
+      "skill": "React Native",
+      "level": 3
+    },
+    {
+      "skill": "GraphQL",
+      "level": 3
+    },
+    {
+      "skill": "Express",
+      "level": 3
+    },
+    {
+      "skill": "Flask",
+      "level": 3
+    }
+  ],
+  "Databases": [
+    {
+      "skill": "PostgreSQL",
+      "level": 3
+    },
+    {
+      "skill": "MongoDB",
+      "level": 2
+    },
+    {
+      "skill": "Couchbase",
+      "level": 1
+    },
+    {
+      "skill": "DynamoDB",
+      "level": 2
+    },
+    {
+      "skill": "MySQL",
+      "level": 3
+    }
+  ],
+  "Infrastructure": [
+    {
+      "skill": "AWS",
+      "level": 3
+    },
+    {
+      "skill": "Docker",
+      "level": 3
+    },
+    {
+      "skill": "Serverless",
+      "level": 2
+    },
+    {
+      "skill": "Kubernetes",
+      "level": 1
+    }
+  ]
+},
   "experiences": [
     {
       "title": "Sr Full-Stack Engineer",

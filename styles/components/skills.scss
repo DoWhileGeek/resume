@@ -9,7 +9,23 @@
     font-weight: bold;
   }
 
+  .cell-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .cell {
+    margin: auto;
     text-align: center;
+  }
+
+  .proficiency-container {
+    display: flex;
+    width: 36px;
+    margin: 0 auto;
+
+    svg {
+      margin: 3px 1px 0;
+    }
   }
 }
